@@ -23,7 +23,7 @@ Follow these instructions to get the project up and running on your local machin
 1. Clone the repository:
 
    ```sh
-   git clone <repository-url>
+   git clone (https://github.com/safyan-yaqoob/beststories_api.git)
    
 ### How to run
 
