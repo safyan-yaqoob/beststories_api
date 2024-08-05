@@ -21,14 +21,12 @@ builder.Services.AddMemoryCache();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+
+app.UseSwagger();
+app.UseSwaggerUI(e =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(e =>
-    {
-        e.SwaggerEndpoint("/swagger/v1/swagger.json", "Best Stories Api");
-    });
-}
+    e.SwaggerEndpoint("/swagger/v1/swagger.json", "Best Stories Api");
+});
 
 app.MapControllers();
 
