@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestStories.Api", "BestStories.Api\BestStories.Api.csproj", "{32B9668E-5A1C-4EB0-8649-2A6B77D893CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestStories.Api", "BestStories.Api\BestStories.Api.csproj", "{32B9668E-5A1C-4EB0-8649-2A6B77D893CB}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F470F231-2B9D-46B4-B20B-F59C7762A816}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{32B9668E-5A1C-4EB0-8649-2A6B77D893CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32B9668E-5A1C-4EB0-8649-2A6B77D893CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32B9668E-5A1C-4EB0-8649-2A6B77D893CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F470F231-2B9D-46B4-B20B-F59C7762A816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F470F231-2B9D-46B4-B20B-F59C7762A816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F470F231-2B9D-46B4-B20B-F59C7762A816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F470F231-2B9D-46B4-B20B-F59C7762A816}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
