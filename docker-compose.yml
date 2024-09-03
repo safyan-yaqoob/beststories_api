@@ -1,13 +1,12 @@
 version: '3.8'
 name: beststories_api
 services:
-    api:
-        container_name: beststories_api
-        image: beststories-api:latest
-        environment:
-            - ASPNETCORE_ENVIRONMENT=docker
-            - ASPNETCORE_URLS=http://+:80
-            - ASPNETCORE_URLS=https://+:443
-        ports:
-          - 80:80
-          - 443:443
+  api:
+    container_name: beststories_api
+    image: beststories-api:latest
+    environment:
+      - ASPNETCORE_ENVIRONMENT=docker
+      - ASPNETCORE_URLS=http://+:80;https://+:443
+    ports:
+      - 80:80
+      - 443:443
